@@ -61,8 +61,8 @@ public class FilesInOut {
      * Method is called and will capitalise the first letter of each word and to handle middle intials.
      * Dates are also adjust to be displayed correctly by adding a '/' between each two digits.
      *
-     * @param inputFile  - File that will be read
-     * @param outputFile - File that will be written to
+     * @param inputFile  - File that will be read.
+     * @param outputFile - File that will be written to.
      */
     public static void changeTitleCase(String inputFile, String outputFile) throws FileNotFoundException {
         File input = new File(inputFile);
